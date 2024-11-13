@@ -1,1 +1,1 @@
-# SoftwareArchitectureCourse
+# دوره مقدماتی معماری نرم‌افزار
