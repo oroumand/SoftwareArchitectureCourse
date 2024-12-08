@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F03DBB0F-90C2-40D1-BF0A-36D5011B6570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4541EC1-19F9-429B-9A46-5B503E7197C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Core", "1.Core", "{5581F97D-1660-4AB0-BFB2-2999330C408D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRent.Core.Domain", "src\1.Core\HouseRent3.Core.Domain\HouseRent.Core.Domain.csproj", "{4BC12011-7313-4A76-9DA7-FC20A48B0E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRent.Core.ApplicationServices", "src\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj", "{813B86A5-5BA5-4282-A030-76DE9355B2EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC12011-7313-4A76-9DA7-FC20A48B0E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC12011-7313-4A76-9DA7-FC20A48B0E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC12011-7313-4A76-9DA7-FC20A48B0E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC12011-7313-4A76-9DA7-FC20A48B0E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813B86A5-5BA5-4282-A030-76DE9355B2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813B86A5-5BA5-4282-A030-76DE9355B2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813B86A5-5BA5-4282-A030-76DE9355B2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813B86A5-5BA5-4282-A030-76DE9355B2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5581F97D-1660-4AB0-BFB2-2999330C408D} = {F03DBB0F-90C2-40D1-BF0A-36D5011B6570}
+		{4BC12011-7313-4A76-9DA7-FC20A48B0E14} = {5581F97D-1660-4AB0-BFB2-2999330C408D}
+		{813B86A5-5BA5-4282-A030-76DE9355B2EE} = {5581F97D-1660-4AB0-BFB2-2999330C408D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF5EEBE-1E5A-47B2-96F3-CA59C857CCB8}
+	EndGlobalSection
+EndGlobal
