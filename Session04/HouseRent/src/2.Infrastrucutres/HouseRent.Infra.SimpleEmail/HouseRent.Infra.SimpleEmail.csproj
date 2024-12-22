@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj" />
-    <ProjectReference Include="..\src\1.Core\HouseRent3.Core.Domain\HouseRent.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\1.Core\HouseRent3.Core.Domain\HouseRent.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>

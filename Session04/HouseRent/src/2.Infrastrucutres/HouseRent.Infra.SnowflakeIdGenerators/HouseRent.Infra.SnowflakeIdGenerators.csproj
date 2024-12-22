@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj" />
+    <ProjectReference Include="..\..\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj" />
   </ItemGroup>
 
 </Project>
