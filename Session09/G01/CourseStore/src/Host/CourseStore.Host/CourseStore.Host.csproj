@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.1">
+
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Scalar.AspNetCore" Version="1.2.37" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Courses\CourseStore.Modules.Courses\CourseStore.Modules.Courses.csproj" />
+    <ProjectReference Include="..\..\Modules\OrderManagement\CourseStore.Moduels.OrderManagement\CourseStore.Modules.OrderManagement.csproj" />
+    <ProjectReference Include="..\..\Modules\Students\CourseStore.Modules.Students\CourseStore.Modules.Students.csproj" />
+  </ItemGroup>
+
+</Project>

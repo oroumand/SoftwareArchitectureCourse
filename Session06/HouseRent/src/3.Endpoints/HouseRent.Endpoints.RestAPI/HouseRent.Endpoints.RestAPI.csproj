@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>d32a9118-bb57-4a56-b98d-28fec3453946</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..\..</DockerfileContext>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+		<PackageReference Include="Scalar.AspNetCore" Version="1.2.37" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\1.Core\HouseRent.Core.ApplicationServices\HouseRent.Core.ApplicationServices.csproj" />
+		<ProjectReference Include="..\..\2.Infrastrucutres\HouseRent.Infra.Caching.StackExchangeRedis\HouseRent.Infra.Caching.StackExchangeRedis.csproj" />
+		<ProjectReference Include="..\..\2.Infrastrucutres\HouseRent.Infra.Data.Sql.Command\HouseRent.Infra.Data.Sql.Command.csproj" />
+		<ProjectReference Include="..\..\2.Infrastrucutres\HouseRent.Infra.SimpleDateTime\HouseRent.Infra.SimpleDateTime.csproj" />
+		<ProjectReference Include="..\..\2.Infrastrucutres\HouseRent.Infra.SimpleEmail\HouseRent.Infra.SimpleEmail.csproj" />
+		<ProjectReference Include="..\..\2.Infrastrucutres\HouseRent.Infra.SnowflakeIdGenerators\HouseRent.Infra.SnowflakeIdGenerators.csproj" />
+	</ItemGroup>
+
+</Project>

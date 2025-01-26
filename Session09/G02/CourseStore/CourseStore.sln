@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{8E8E9787-2B3A-4DCF-BA7B-5784ED34635E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{1EB69879-3668-4A66-A45A-76265F7C1C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{ED0E814C-F035-42BA-96B2-CC51C9B2636A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D00E6CE-FFE7-4137-8E32-7A6618D1EBF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{49EAEC99-A624-4A44-8B24-ED8655C47F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Framework", "src\Framework\CourseStore.Framework\CourseStore.Framework.csproj", "{DF6D14DD-5E07-4631-B225-BC5CE69FE533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Host", "src\Hots\CourseStore.Host\CourseStore.Host.csproj", "{74151A58-61C3-4ED9-8EDD-C0BDCE864918}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CourseManagement", "CourseManagement", "{59F9BDF1-B43D-46BC-92EC-8CCEFC778930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudentManagement", "StudentManagement", "{2B538EC9-4811-4C7D-85B2-F02CEAA51086}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderManagement", "OrderManagement", "{21C11765-7A89-44D2-A0D7-44D20CFEEFA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Modules.CourseManagement", "src\Modules\CourseManagement\CourseStore.Modules.CourseManagement\CourseStore.Modules.CourseManagement.csproj", "{840BE7BC-D796-4732-8676-73B05811FE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Modules.OrderManagement", "src\Modules\OrderManagement\CourseStore.Modules.OrderManagement\CourseStore.Modules.OrderManagement.csproj", "{2767FE2C-F4EC-4712-A30B-D7A44D5753B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseStore.Modules.StudentManagement", "src\Modules\StudentManagement\CourseStore.Modules.StudentManagement\CourseStore.Modules.StudentManagement.csproj", "{8E18D782-0112-4B91-90EC-13BEEF97ABAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6D14DD-5E07-4631-B225-BC5CE69FE533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6D14DD-5E07-4631-B225-BC5CE69FE533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6D14DD-5E07-4631-B225-BC5CE69FE533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6D14DD-5E07-4631-B225-BC5CE69FE533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74151A58-61C3-4ED9-8EDD-C0BDCE864918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74151A58-61C3-4ED9-8EDD-C0BDCE864918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74151A58-61C3-4ED9-8EDD-C0BDCE864918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74151A58-61C3-4ED9-8EDD-C0BDCE864918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840BE7BC-D796-4732-8676-73B05811FE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840BE7BC-D796-4732-8676-73B05811FE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840BE7BC-D796-4732-8676-73B05811FE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840BE7BC-D796-4732-8676-73B05811FE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2767FE2C-F4EC-4712-A30B-D7A44D5753B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2767FE2C-F4EC-4712-A30B-D7A44D5753B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2767FE2C-F4EC-4712-A30B-D7A44D5753B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2767FE2C-F4EC-4712-A30B-D7A44D5753B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E18D782-0112-4B91-90EC-13BEEF97ABAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E18D782-0112-4B91-90EC-13BEEF97ABAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E18D782-0112-4B91-90EC-13BEEF97ABAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E18D782-0112-4B91-90EC-13BEEF97ABAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E8E9787-2B3A-4DCF-BA7B-5784ED34635E} = {6D00E6CE-FFE7-4137-8E32-7A6618D1EBF4}
+		{1EB69879-3668-4A66-A45A-76265F7C1C68} = {6D00E6CE-FFE7-4137-8E32-7A6618D1EBF4}
+		{ED0E814C-F035-42BA-96B2-CC51C9B2636A} = {6D00E6CE-FFE7-4137-8E32-7A6618D1EBF4}
+		{DF6D14DD-5E07-4631-B225-BC5CE69FE533} = {ED0E814C-F035-42BA-96B2-CC51C9B2636A}
+		{74151A58-61C3-4ED9-8EDD-C0BDCE864918} = {8E8E9787-2B3A-4DCF-BA7B-5784ED34635E}
+		{59F9BDF1-B43D-46BC-92EC-8CCEFC778930} = {1EB69879-3668-4A66-A45A-76265F7C1C68}
+		{2B538EC9-4811-4C7D-85B2-F02CEAA51086} = {1EB69879-3668-4A66-A45A-76265F7C1C68}
+		{21C11765-7A89-44D2-A0D7-44D20CFEEFA6} = {1EB69879-3668-4A66-A45A-76265F7C1C68}
+		{840BE7BC-D796-4732-8676-73B05811FE6E} = {59F9BDF1-B43D-46BC-92EC-8CCEFC778930}
+		{2767FE2C-F4EC-4712-A30B-D7A44D5753B8} = {21C11765-7A89-44D2-A0D7-44D20CFEEFA6}
+		{8E18D782-0112-4B91-90EC-13BEEF97ABAA} = {2B538EC9-4811-4C7D-85B2-F02CEAA51086}
+	EndGlobalSection
+EndGlobal
